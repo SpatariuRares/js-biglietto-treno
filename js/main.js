@@ -11,4 +11,4 @@ if(eta>=65){
     prezz = prezzo*0.6;
 }
 
-document.writeln(prezzo);
+document.writeln(prezzo.toFixed(2));
